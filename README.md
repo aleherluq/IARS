@@ -41,6 +41,9 @@ Se necesitan los credenciales de docker que se pueden añadir a través de ```do
 
 Una vez ejecutada esa última línea,, debería saltar el terminal de riotos
 
+**Una vez dentro del terminal, hay que busar la carpeta que hemod definido para compartir, en este caso doc**
+yo lo he conseguido haciendo dos veces cd .. , al hacer ls me aparecen muchas carpetas, entre ellas la mia
+
 ### Paso 3. Descargar el repositorio de RIOT de GUITHUB
 
 Para descargar el repositorio se utiliza el siguiente comando:
