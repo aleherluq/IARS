@@ -58,6 +58,7 @@ dentro de la carpeta RIOT, queremos acceder a los ejemplos y en concreto el de h
 #### 1. Acceder a la carpeta del ejemplo
 ```cd riot/examples/hello-world```
 #### 2. Compilar el ejemplo para la placa deseada
-```make=BOARD```
+```make BOARD=cc265stk```
+```make BOARD=cc2538dk```
 
 Ejecutando esta última sentencia se compila el programa para el micro creandose la carpeta bin
