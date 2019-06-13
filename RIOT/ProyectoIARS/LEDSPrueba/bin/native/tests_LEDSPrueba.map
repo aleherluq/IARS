@@ -1,0 +1,1331 @@
+Archive member included to satisfy reference by file (symbol)
+
+/data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/application_tests_LEDSPrueba.a(main.o)
+                              /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o (main)
+/data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board_init.o)
+                              /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o (board_init)
+/data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board.o)
+                              /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/application_tests_LEDSPrueba.a(main.o) (native_motor_driver_qdec_simulation)
+/data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(kernel_init.o)
+                              /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o (kernel_init)
+/data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+                              /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(kernel_init.o) (thread_create)
+/data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(assert.o)
+                              /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o (_assert_failure)
+/data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(panic.o)
+                              /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(assert.o) (assert_crash_message)
+/data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+                              /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o) (sched_num_threads)
+/data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                              /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o (real_exit)
+/data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                              /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o) (native_interrupts_enabled)
+/data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+                              /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o) (thread_stack_init)
+/data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(tramp.o)
+                              /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o) (_native_sig_leave_tramp)
+/data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/native-drivers.a(native-led.o)
+                              /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/application_tests_LEDSPrueba.a(main.o) (_native_LED_GREEN_ON)
+/data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(pm.o)
+                              /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(kernel_init.o) (pm_set_lowest)
+/data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(uart.o)
+                              /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o (tty_uart_setup)
+/data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph_common.a(init.o)
+                              /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o (periph_init)
+/data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/auto_init.a(auto_init.o)
+                              /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(kernel_init.o) (auto_init)
+/data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(async_read.o)
+                              /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(uart.o) (native_async_read_setup)
+/usr/lib32/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o (__libc_csu_init)
+/usr/lib32/libc_nonshared.a(stack_chk_fail_local.oS)
+                              /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o (__stack_chk_fail_local)
+
+As-needed library included to satisfy reference by file (symbol)
+
+libdl.so.2                    /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o) (dlsym@@GLIBC_2.0)
+libc.so.6                     /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o) (strsignal@@GLIBC_2.0)
+/data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(tramp.o): dynamic relocation against `_native_saved_eip' in read-only section `.text'
+
+Discarded input sections
+
+ .rodata        0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crti.o
+ .group         0x0000000000000000        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+ .group         0x0000000000000000        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+ .text          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+ .data          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+ .bss           0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+ .bss._native_unix_socket_path
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/application_tests_LEDSPrueba.a(main.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/application_tests_LEDSPrueba.a(main.o)
+ .text          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/application_tests_LEDSPrueba.a(main.o)
+ .data          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/application_tests_LEDSPrueba.a(main.o)
+ .bss           0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/application_tests_LEDSPrueba.a(main.o)
+ .data.rel.ro.motor_driver_config
+                0x0000000000000000       0x48 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/application_tests_LEDSPrueba.a(main.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/application_tests_LEDSPrueba.a(main.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/application_tests_LEDSPrueba.a(main.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board_init.o)
+ .text          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board_init.o)
+ .data          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board_init.o)
+ .bss           0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board_init.o)
+ .data.rel.ro.motor_driver_config
+                0x0000000000000000       0x48 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board_init.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board_init.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board_init.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board.o)
+ .text          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board.o)
+ .data          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board.o)
+ .bss           0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board.o)
+ .data.rel.ro.local.motor_driver_config
+                0x0000000000000000       0x48 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board.o)
+ .rodata        0x0000000000000000       0x3f /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board.o)
+ .text.native_motor_driver_qdec_simulation
+                0x0000000000000000       0xd9 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board.o)
+ .text.__x86.get_pc_thunk.dx
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(kernel_init.o)
+ .text          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(kernel_init.o)
+ .data          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(kernel_init.o)
+ .bss           0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(kernel_init.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(kernel_init.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(kernel_init.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+ .text          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+ .data          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+ .bss           0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+ .text.clist_lpoprpush
+                0x0000000000000000       0x4a /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+ .text.pid_is_valid
+                0x0000000000000000       0x4f /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+ .text.thread_get
+                0x0000000000000000       0x62 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+ .text.thread_getstatus
+                0x0000000000000000       0x5b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+ .text.thread_getname
+                0x0000000000000000       0x5b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+ .text.thread_sleep
+                0x0000000000000000       0x70 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+ .text.thread_wakeup
+                0x0000000000000000       0xb4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+ .text.thread_yield
+                0x0000000000000000       0x8a /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+ .text.thread_add_to_list
+                0x0000000000000000       0xbe /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+ .text.thread_measure_stack_free
+                0x0000000000000000       0x5c /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(assert.o)
+ .text          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(assert.o)
+ .data          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(assert.o)
+ .bss           0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(assert.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(assert.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(assert.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(panic.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(panic.o)
+ .text          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(panic.o)
+ .data          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(panic.o)
+ .bss           0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(panic.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(panic.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(panic.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(panic.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+ .text          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+ .data          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+ .bss           0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+ .openocd       0x0000000000000000        0x2 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+ .text          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+ .data          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+ .bss           0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+ .data.rel.ro.motor_driver_config
+                0x0000000000000000       0x48 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+ .text._native_read
+                0x0000000000000000       0x6c /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+ .text._native_writev
+                0x0000000000000000       0x6c /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ .text          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ .data          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ .bss           0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ .text.thread_isr_stack_pointer
+                0x0000000000000000       0x35 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ .text.thread_isr_stack_start
+                0x0000000000000000       0x35 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ .text.print_thread_sigmask
+                0x0000000000000000      0x111 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ .text.print_sigmasks
+                0x0000000000000000       0xab /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ .text.native_print_signals
+                0x0000000000000000      0x1d4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ .text.set_signal_handler
+                0x0000000000000000      0x15f /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ .text.register_interrupt
+                0x0000000000000000       0x77 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ .text.unregister_interrupt
+                0x0000000000000000       0x72 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+ .text          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+ .data          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+ .bss           0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+ .text.thread_print_stack
+                0x0000000000000000       0x2f /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+ .text.thread_isr_stack_usage
+                0x0000000000000000       0x33 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+ .data          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(tramp.o)
+ .bss           0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(tramp.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/native-drivers.a(native-led.o)
+ .text          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/native-drivers.a(native-led.o)
+ .data          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/native-drivers.a(native-led.o)
+ .bss           0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/native-drivers.a(native-led.o)
+ .data.rel.ro.motor_driver_config
+                0x0000000000000000       0x48 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/native-drivers.a(native-led.o)
+ .text._native_LED_GREEN_OFF
+                0x0000000000000000       0x48 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/native-drivers.a(native-led.o)
+ .text._native_LED_RED_ON
+                0x0000000000000000       0x48 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/native-drivers.a(native-led.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/native-drivers.a(native-led.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/native-drivers.a(native-led.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(pm.o)
+ .text          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(pm.o)
+ .data          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(pm.o)
+ .bss           0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(pm.o)
+ .text.pm_reboot
+                0x0000000000000000       0x81 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(pm.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(pm.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(pm.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(uart.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(uart.o)
+ .text          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(uart.o)
+ .data          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(uart.o)
+ .bss           0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(uart.o)
+ .bss.uart_config
+                0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(uart.o)
+ .bss.tty_fds   0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(uart.o)
+ .text.io_signal_handler
+                0x0000000000000000       0xf0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(uart.o)
+ .text.uart_init
+                0x0000000000000000      0x338 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(uart.o)
+ .text.uart_write
+                0x0000000000000000       0x64 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(uart.o)
+ .text.uart_poweron
+                0x0000000000000000       0x35 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(uart.o)
+ .text.uart_poweroff
+                0x0000000000000000       0x35 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(uart.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(uart.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(uart.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(uart.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph_common.a(init.o)
+ .text          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph_common.a(init.o)
+ .data          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph_common.a(init.o)
+ .bss           0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph_common.a(init.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph_common.a(init.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph_common.a(init.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/auto_init.a(auto_init.o)
+ .text          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/auto_init.a(auto_init.o)
+ .data          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/auto_init.a(auto_init.o)
+ .bss           0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/auto_init.a(auto_init.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/auto_init.a(auto_init.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/auto_init.a(auto_init.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(async_read.o)
+ .group         0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(async_read.o)
+ .text          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(async_read.o)
+ .data          0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(async_read.o)
+ .bss           0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(async_read.o)
+ .bss._next_index
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(async_read.o)
+ .bss._fds      0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(async_read.o)
+ .bss._args     0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(async_read.o)
+ .bss._native_async_read_callbacks
+                0x0000000000000000        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(async_read.o)
+ .text._async_io_isr
+                0x0000000000000000      0x1f9 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(async_read.o)
+ .text.native_async_read_setup
+                0x0000000000000000       0x4a /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(async_read.o)
+ .text.native_async_read_cleanup
+                0x0000000000000000       0x74 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(async_read.o)
+ .text.native_async_read_continue
+                0x0000000000000000       0x35 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(async_read.o)
+ .rodata        0x0000000000000000       0x98 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(async_read.o)
+ .text.native_async_read_add_handler
+                0x0000000000000000      0x105 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(async_read.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(async_read.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(async_read.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(async_read.o)
+ .group         0x0000000000000000        0x8 /usr/lib32/libc_nonshared.a(elf-init.oS)
+ .data          0x0000000000000000        0x0 /usr/lib32/libc_nonshared.a(elf-init.oS)
+ .bss           0x0000000000000000        0x0 /usr/lib32/libc_nonshared.a(elf-init.oS)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/lib32/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib32/libc_nonshared.a(elf-init.oS)
+ .group         0x0000000000000000        0x8 /usr/lib32/libc_nonshared.a(stack_chk_fail_local.oS)
+ .data          0x0000000000000000        0x0 /usr/lib32/libc_nonshared.a(stack_chk_fail_local.oS)
+ .bss           0x0000000000000000        0x0 /usr/lib32/libc_nonshared.a(stack_chk_fail_local.oS)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/lib32/libc_nonshared.a(stack_chk_fail_local.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib32/libc_nonshared.a(stack_chk_fail_local.oS)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+LOAD /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+START GROUP
+LOAD /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/application_tests_LEDSPrueba.a
+LOAD /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/auto_init.a
+LOAD /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a
+LOAD /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a
+LOAD /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a
+LOAD /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/native-drivers.a
+LOAD /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a
+LOAD /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/sys.a
+LOAD /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph_common.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/libm.so
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/libdl.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/32/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/32/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/32/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/32/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/libc.so
+START GROUP
+LOAD /lib32/libc.so.6
+LOAD /usr/lib32/libc_nonshared.a
+LOAD /lib32/ld-linux.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/32/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/32/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/32/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/32/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/32/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x0))
+                0x0000000000000154                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.interp         0x0000000000000154       0x13
+ *(.interp)
+ .interp        0x0000000000000154       0x13 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.note.ABI-tag   0x0000000000000168       0x20
+ .note.ABI-tag  0x0000000000000168       0x20 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.note.gnu.build-id
+                0x0000000000000188       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000000188       0x24 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000001ac       0xb4
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000001ac       0xb4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.dynsym         0x0000000000000260      0x330
+ *(.dynsym)
+ .dynsym        0x0000000000000260      0x330 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.dynstr         0x0000000000000590      0x1fc
+ *(.dynstr)
+ .dynstr        0x0000000000000590      0x1fc /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.gnu.version    0x000000000000078c       0x66
+ *(.gnu.version)
+ .gnu.version   0x000000000000078c       0x66 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.gnu.version_d  0x00000000000007f4        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000000007f4        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.gnu.version_r  0x00000000000007f4       0x70
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000000007f4       0x70 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.rel.dyn        0x0000000000000864       0xe8
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text.core_panic
+                0x0000000000000864        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .rel.text      0x0000000000000864       0x38 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x000000000000089c        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .rel.data.rel.ro.local.long_opts
+                0x000000000000089c       0x40 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x00000000000008dc        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .rel.data.rel.local.main_name
+                0x00000000000008e4        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .rel.data.rel.local.idle_name
+                0x00000000000008ec        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00000000000008f4       0x40 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.bss       0x0000000000000934        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000934        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .rel.fini_array
+                0x0000000000000934        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .rel.init_array
+                0x000000000000093c       0x10 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.rel.plt        0x000000000000094c       0xb8
+ *(.rel.plt)
+ .rel.plt       0x000000000000094c       0xb8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+                [!provide]                        PROVIDE (__rel_iplt_start = .)
+ *(.rel.iplt)
+                [!provide]                        PROVIDE (__rel_iplt_end = .)
+
+.init           0x0000000000000a04       0x23
+ *(SORT_NONE(.init))
+ .init          0x0000000000000a04       0x1e /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crti.o
+                0x0000000000000a04                _init
+ .init          0x0000000000000a22        0x5 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crtn.o
+
+.plt            0x0000000000000a30      0x180
+ *(.plt)
+ .plt           0x0000000000000a30      0x180 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ *(.iplt)
+
+.plt.got        0x0000000000000bb0       0x10
+ *(.plt.got)
+ .plt.got       0x0000000000000bb0       0x10 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000000bc0     0x3524
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup  0x0000000000000bc0      0x315 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000000ed5       0x36 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+                0x0000000000000ed5                _start
+ *fill*         0x0000000000000f0b        0x5 
+ .gnu.linkonce.t.__x86.get_pc_thunk.bx
+                0x0000000000000f10        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crti.o
+                0x0000000000000f10                __x86.get_pc_thunk.bx
+ *fill*         0x0000000000000f14        0xc 
+ .text          0x0000000000000f20       0xe9 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+ .text.__x86.get_pc_thunk.dx
+                0x0000000000001009        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+                0x0000000000001009                __x86.get_pc_thunk.dx
+ .text._native_input
+                0x000000000000100d       0x9c /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+                0x000000000000100d                _native_input
+ .text._native_log_output
+                0x00000000000010a9      0x162 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+                0x00000000000010a9                _native_log_output
+ .text.daemonize
+                0x000000000000120b      0x106 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+                0x000000000000120b                daemonize
+ .text.filter_daemonize_argv
+                0x0000000000001311       0xba /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+ .text.usage_exit
+                0x00000000000013cb       0x9d /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+                0x00000000000013cb                usage_exit
+ .text.dumb_delay
+                0x0000000000001468       0x4b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/application_tests_LEDSPrueba.a(main.o)
+                0x0000000000001468                dumb_delay
+ .text.main     0x00000000000014b3       0x49 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/application_tests_LEDSPrueba.a(main.o)
+                0x00000000000014b3                main
+ .text.__x86.get_pc_thunk.ax
+                0x00000000000014fc        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/application_tests_LEDSPrueba.a(main.o)
+                0x00000000000014fc                __x86.get_pc_thunk.ax
+ .text.board_init
+                0x0000000000001500       0x50 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board_init.o)
+                0x0000000000001500                board_init
+ .text.main_trampoline
+                0x0000000000001550       0x5a /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(kernel_init.o)
+ .text.idle_thread
+                0x00000000000015aa       0x2a /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(kernel_init.o)
+ .text.kernel_init
+                0x00000000000015d4       0x7d /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(kernel_init.o)
+                0x00000000000015d4                kernel_init
+ .text.cib_init
+                0x0000000000001651       0x8b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+ .text.thread_create
+                0x00000000000016dc      0x277 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+                0x00000000000016dc                thread_create
+ .text._assert_failure
+                0x0000000000001953       0x52 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(assert.o)
+                0x0000000000001953                _assert_failure
+ .text.panic_arch
+                0x00000000000019a5       0x2f /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(panic.o)
+                0x00000000000019a5                panic_arch
+ .text.core_panic
+                0x00000000000019d4       0x8f /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(panic.o)
+                0x00000000000019d4                core_panic
+ .text.bitarithm_lsb
+                0x0000000000001a63       0x51 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+ .text.clist_rpush
+                0x0000000000001ab4       0x6c /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+ .text.clist_lpop
+                0x0000000000001b20       0x72 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+ .text.sched_run
+                0x0000000000001b92       0xc3 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+                0x0000000000001b92                sched_run
+ .text.sched_set_status
+                0x0000000000001c55      0x11d /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+                0x0000000000001c55                sched_set_status
+ .text.sched_switch
+                0x0000000000001d72       0x90 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+                0x0000000000001d72                sched_switch
+ .text.sched_task_exit
+                0x0000000000001e02       0x67 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+                0x0000000000001e02                sched_task_exit
+ .text._native_syscall_enter
+                0x0000000000001e69       0x43 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x0000000000001e69                _native_syscall_enter
+ .text._native_syscall_leave
+                0x0000000000001eac      0x137 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x0000000000001eac                _native_syscall_leave
+ .text.malloc   0x0000000000001fe3       0xa8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x0000000000001fe3                malloc
+ .text.free     0x000000000000208b       0x55 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000208b                free
+ .text.calloc   0x00000000000020e0       0xb1 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x00000000000020e0                calloc
+ .text.realloc  0x0000000000002191       0x63 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x0000000000002191                realloc
+ .text._native_write
+                0x00000000000021f4       0x6c /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x00000000000021f4                _native_write
+ .text.putchar  0x0000000000002260       0x4c /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x0000000000002260                putchar
+ .text.puts     0x00000000000022ac       0x6d /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x00000000000022ac                puts
+ .text.make_message
+                0x0000000000002319       0xd8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x0000000000002319                make_message
+ .text.printf   0x00000000000023f1       0x5c /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x00000000000023f1                printf
+ .text.vprintf  0x000000000000244d       0x55 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000244d                vprintf
+ .text.fprintf  0x00000000000024a2       0x5b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x00000000000024a2                fprintf
+ .text.vfprintf
+                0x00000000000024fd       0xb5 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x00000000000024fd                vfprintf
+ .text.vwarn    0x00000000000025b2      0x14e /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x00000000000025b2                vwarn
+ .text.vwarnx   0x0000000000002700      0x103 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x0000000000002700                vwarnx
+ .text.verr     0x0000000000002803       0x4e /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x0000000000002803                verr
+ .text.verrx    0x0000000000002851       0x4e /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x0000000000002851                verrx
+ .text.warn     0x000000000000289f       0x4d /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000289f                warn
+ .text.warnx    0x00000000000028ec       0x4d /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x00000000000028ec                warnx
+ .text.err      0x0000000000002939       0x3f /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x0000000000002939                err
+ .text.errx     0x0000000000002978       0x3f /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x0000000000002978                errx
+ .text.getpid   0x00000000000029b7       0x46 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x00000000000029b7                getpid
+ .text._native_init_syscalls
+                0x00000000000029fd      0x5af /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x00000000000029fd                _native_init_syscalls
+ .text.irq_disable
+                0x0000000000002fac       0x85 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000002fac                irq_disable
+ .text.irq_enable
+                0x0000000000003031       0xa5 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000003031                irq_enable
+ .text.irq_restore
+                0x00000000000030d6       0x47 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000030d6                irq_restore
+ .text.irq_is_in
+                0x000000000000311d       0x35 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000311d                irq_is_in
+ .text._native_popsig
+                0x0000000000003152       0x9f /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000003152                _native_popsig
+ .text.native_irq_handler
+                0x00000000000031f1       0x8f /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000031f1                native_irq_handler
+ .text.isr_set_sigmask
+                0x0000000000003280       0x60 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000003280                isr_set_sigmask
+ .text.native_isr_entry
+                0x00000000000032e0      0x18f /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000032e0                native_isr_entry
+ .text.native_shutdown
+                0x000000000000346f       0x4e /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ .text.native_interrupt_init
+                0x00000000000034bd      0x3bc /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000034bd                native_interrupt_init
+ .text._native_mod_ctx_leave_sigh
+                0x0000000000003879       0x54 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+ .text.thread_stack_init
+                0x00000000000038cd      0x106 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+                0x00000000000038cd                thread_stack_init
+ .text.isr_cpu_switch_context_exit
+                0x00000000000039d3       0x97 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+                0x00000000000039d3                isr_cpu_switch_context_exit
+ .text.cpu_switch_context_exit
+                0x0000000000003a6a       0xd1 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+                0x0000000000003a6a                cpu_switch_context_exit
+ .text.isr_thread_yield
+                0x0000000000003b3b       0x95 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+                0x0000000000003b3b                isr_thread_yield
+ .text.thread_yield_higher
+                0x0000000000003bd0      0x100 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+                0x0000000000003bd0                thread_yield_higher
+ .text.native_cpu_init
+                0x0000000000003cd0       0xa2 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+                0x0000000000003cd0                native_cpu_init
+ .text          0x0000000000003d72       0x3f /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(tramp.o)
+                0x0000000000003d72                _native_sig_leave_tramp
+                0x0000000000003da0                _native_sig_leave_handler
+ .text._native_LED_GREEN_ON
+                0x0000000000003db1       0x48 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/native-drivers.a(native-led.o)
+                0x0000000000003db1                _native_LED_GREEN_ON
+ .text._native_LED_GREEN_TOGGLE
+                0x0000000000003df9       0x48 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/native-drivers.a(native-led.o)
+                0x0000000000003df9                _native_LED_GREEN_TOGGLE
+ .text._native_LED_RED_OFF
+                0x0000000000003e41       0x48 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/native-drivers.a(native-led.o)
+                0x0000000000003e41                _native_LED_RED_OFF
+ .text._native_LED_RED_TOGGLE
+                0x0000000000003e89       0x48 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/native-drivers.a(native-led.o)
+                0x0000000000003e89                _native_LED_RED_TOGGLE
+ .text.pm_set_lowest
+                0x0000000000003ed1       0x89 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(pm.o)
+                0x0000000000003ed1                pm_set_lowest
+ .text.pm_off   0x0000000000003f5a       0x3e /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(pm.o)
+                0x0000000000003f5a                pm_off
+ .text.tty_uart_setup
+                0x0000000000003f98       0x5f /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(uart.o)
+                0x0000000000003f98                tty_uart_setup
+ .text.periph_init
+                0x0000000000003ff7       0x2f /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph_common.a(init.o)
+                0x0000000000003ff7                periph_init
+ .text.auto_init
+                0x0000000000004026       0x2f /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/auto_init.a(auto_init.o)
+                0x0000000000004026                auto_init
+ *fill*         0x0000000000004055        0xb 
+ .text          0x0000000000004060       0x62 /usr/lib32/libc_nonshared.a(elf-init.oS)
+                0x0000000000004060                __libc_csu_init
+                0x00000000000040c0                __libc_csu_fini
+ *fill*         0x00000000000040c2        0xe 
+ .text          0x00000000000040d0       0x14 /usr/lib32/libc_nonshared.a(stack_chk_fail_local.oS)
+                0x00000000000040d0                __stack_chk_fail_local
+ *(.gnu.warning)
+
+.fini           0x00000000000040e4       0x14
+ *(SORT_NONE(.fini))
+ .fini          0x00000000000040e4        0xf /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crti.o
+                0x00000000000040e4                _fini
+ .fini          0x00000000000040f3        0x5 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.rodata         0x00000000000040f8      0xd62
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x00000000000040f8        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+                0x00000000000040f8                _IO_stdin_used
+ .rodata.short_opts
+                0x00000000000040fc        0xd /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+ *fill*         0x0000000000004109        0x3 
+ .rodata        0x000000000000410c      0x4cb /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+ *fill*         0x00000000000045d7        0x1 
+ .rodata        0x00000000000045d8       0x1f /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board_init.o)
+ *fill*         0x00000000000045f7        0x1 
+ .rodata        0x00000000000045f8       0x43 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(kernel_init.o)
+ .rodata        0x000000000000463b        0xe /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+ .rodata        0x0000000000004649        0xa /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(assert.o)
+ *fill*         0x0000000000004653        0x1 
+ .rodata.assert_crash_message
+                0x0000000000004654       0x12 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(panic.o)
+                0x0000000000004654                assert_crash_message
+ .rodata        0x0000000000004666       0x2d /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(panic.o)
+ *fill*         0x0000000000004693        0x1 
+ .rodata        0x0000000000004694      0x1b2 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+ *fill*         0x0000000000004846        0x2 
+ .rodata        0x0000000000004848      0x3bc /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ .rodata        0x0000000000004c04      0x1a5 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+ .rodata        0x0000000000004da9       0x52 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/native-drivers.a(native-led.o)
+ *fill*         0x0000000000004dfb        0x1 
+ .rodata        0x0000000000004dfc       0x5e /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(pm.o)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000004e5c      0x28c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000004e5c      0x28c /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+                0x0000000000004e5c                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x00000000000050e8      0xac0
+ *(.eh_frame)
+ .eh_frame      0x00000000000050e8       0x3c /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000005124       0x14 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+                                         0x2c (size before relaxing)
+ .eh_frame      0x0000000000005138       0xd0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+                                         0xfc (size before relaxing)
+ .eh_frame      0x0000000000005208       0x5c /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/application_tests_LEDSPrueba.a(main.o)
+                                         0x88 (size before relaxing)
+ .eh_frame      0x0000000000005264       0x24 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board_init.o)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x0000000000005288        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board.o)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000000005288       0x5c /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(kernel_init.o)
+                                         0x88 (size before relaxing)
+ .eh_frame      0x00000000000052e4       0x48 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+                                        0x1dc (size before relaxing)
+ .eh_frame      0x000000000000532c       0x1c /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(assert.o)
+                                         0x48 (size before relaxing)
+ .eh_frame      0x0000000000005348       0x3c /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(panic.o)
+                                         0x7c (size before relaxing)
+ .eh_frame      0x0000000000005384       0xe8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+                                        0x128 (size before relaxing)
+ .eh_frame      0x000000000000546c      0x334 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                                        0x3bc (size before relaxing)
+ .eh_frame      0x00000000000057a0      0x16c /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                                        0x2e0 (size before relaxing)
+ .eh_frame      0x000000000000590c       0xe8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+                                        0x168 (size before relaxing)
+ .eh_frame      0x00000000000059f4       0x90 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/native-drivers.a(native-led.o)
+                                        0x104 (size before relaxing)
+ .eh_frame      0x0000000000005a84       0x40 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(pm.o)
+                                         0x88 (size before relaxing)
+ .eh_frame      0x0000000000005ac4       0x24 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(uart.o)
+                                        0x110 (size before relaxing)
+ .eh_frame      0x0000000000005ae8       0x20 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph_common.a(init.o)
+                                         0x4c (size before relaxing)
+ .eh_frame      0x0000000000005b08       0x20 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/auto_init.a(auto_init.o)
+                                         0x4c (size before relaxing)
+ .eh_frame      0x0000000000005b28        0x0 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(async_read.o)
+                                         0xfc (size before relaxing)
+ .eh_frame      0x0000000000005b28       0x60 /usr/lib32/libc_nonshared.a(elf-init.oS)
+                                         0x8c (size before relaxing)
+ .eh_frame      0x0000000000005b88       0x1c /usr/lib32/libc_nonshared.a(stack_chk_fail_local.oS)
+                                         0x48 (size before relaxing)
+ .eh_frame      0x0000000000005ba4        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000006dd4                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000006dd4        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000006dd4        0x8
+                0x0000000000006dd4                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000006dd4        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+ .init_array    0x0000000000006dd8        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+                0x0000000000006ddc                PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000006ddc        0x4
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000006ddc        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x0000000000006de0       0x90
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local.long_opts
+                0x0000000000006de0       0x90 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000006e70        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.dynamic        0x0000000000006e70      0x108
+ *(.dynamic)
+ .dynamic       0x0000000000006e70      0x108 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+                0x0000000000006e70                _DYNAMIC
+
+.got            0x0000000000006f78       0x88
+ *(.got.plt)
+ .got.plt       0x0000000000006f78       0x68 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+                0x0000000000006f78                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ *(.got)
+ .got           0x0000000000006fe0       0x20 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ *(.igot)
+                0x0000000000007000                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.data           0x0000000000007000        0xc
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x0000000000007000        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+                0x0000000000007000                __dso_handle
+ .data.rel.local.main_name
+                0x0000000000007004        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(kernel_init.o)
+                0x0000000000007004                main_name
+ .data.rel.local.idle_name
+                0x0000000000007008        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(kernel_init.o)
+                0x0000000000007008                idle_name
+
+.tm_clone_table
+                0x000000000000700c        0x0
+ .tm_clone_table
+                0x000000000000700c        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+ .tm_clone_table
+                0x000000000000700c        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtendS.o
+
+.data1
+ *(.data1)
+                0x000000000000700c                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x000000000000700c                . = .
+                0x000000000000700c                __bss_start = .
+
+.bss            0x0000000000007020     0xba24
+ *(.dynbss)
+ .dynbss        0x0000000000007020        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000007020        0x1 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+ *fill*         0x0000000000007021        0x3 
+ .bss._native_null_in_pipe
+                0x0000000000007024        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+                0x0000000000007024                _native_null_in_pipe
+ .bss._native_null_out_file
+                0x000000000000702c        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+                0x000000000000702c                _native_null_out_file
+ .bss._progname
+                0x0000000000007030        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+                0x0000000000007030                _progname
+ .bss._native_argv
+                0x0000000000007034        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+                0x0000000000007034                _native_argv
+ .bss._native_pid
+                0x0000000000007038        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+                0x0000000000007038                _native_pid
+ .bss._native_id
+                0x000000000000703c        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+                0x000000000000703c                _native_id
+ .bss._native_rng_seed
+                0x0000000000007040        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+                0x0000000000007040                _native_rng_seed
+ .bss._native_rng_mode
+                0x0000000000007044        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+                0x0000000000007044                _native_rng_mode
+ *fill*         0x0000000000007048       0x18 
+ .bss.main_stack
+                0x0000000000007060     0x3000 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(kernel_init.o)
+ .bss.idle_stack
+                0x000000000000a060     0x2000 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(kernel_init.o)
+ .bss.crashed   0x000000000000c060        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(panic.o)
+ .bss.sched_num_threads
+                0x000000000000c064        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+                0x000000000000c064                sched_num_threads
+ .bss.sched_context_switch_request
+                0x000000000000c068        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+                0x000000000000c068                sched_context_switch_request
+ *fill*         0x000000000000c06c       0x14 
+ .bss.sched_threads
+                0x000000000000c080       0x84 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+                0x000000000000c080                sched_threads
+ .bss.sched_active_thread
+                0x000000000000c104        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+                0x000000000000c104                sched_active_thread
+ .bss.sched_active_pid
+                0x000000000000c108        0x2 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+                0x000000000000c108                sched_active_pid
+ *fill*         0x000000000000c10a       0x16 
+ .bss.sched_runqueues
+                0x000000000000c120       0x40 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+                0x000000000000c120                sched_runqueues
+ .bss.runqueue_bitcache
+                0x000000000000c160        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+ .bss.real_read
+                0x000000000000c164        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c164                real_read
+ .bss.real_write
+                0x000000000000c168        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c168                real_write
+ .bss.real_fread
+                0x000000000000c16c        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c16c                real_fread
+ .bss.real_clearerr
+                0x000000000000c170        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c170                real_clearerr
+ .bss.real_exit
+                0x000000000000c174        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c174                real_exit
+ .bss.real_free
+                0x000000000000c178        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c178                real_free
+ .bss.real_malloc
+                0x000000000000c17c        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c17c                real_malloc
+ .bss.real_calloc
+                0x000000000000c180        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c180                real_calloc
+ .bss.real_realloc
+                0x000000000000c184        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c184                real_realloc
+ .bss.real_freeaddrinfo
+                0x000000000000c188        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c188                real_freeaddrinfo
+ .bss.real_freeifaddrs
+                0x000000000000c18c        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c18c                real_freeifaddrs
+ .bss.real_srandom
+                0x000000000000c190        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c190                real_srandom
+ .bss.real_accept
+                0x000000000000c194        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c194                real_accept
+ .bss.real_bind
+                0x000000000000c198        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c198                real_bind
+ .bss.real_connect
+                0x000000000000c19c        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c19c                real_connect
+ .bss.real_printf
+                0x000000000000c1a0        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1a0                real_printf
+ .bss.real_getaddrinfo
+                0x000000000000c1a4        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1a4                real_getaddrinfo
+ .bss.real_getifaddrs
+                0x000000000000c1a8        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1a8                real_getifaddrs
+ .bss.real_gettimeofday
+                0x000000000000c1ac        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1ac                real_gettimeofday
+ .bss.real_getpid
+                0x000000000000c1b0        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1b0                real_getpid
+ .bss.real_chdir
+                0x000000000000c1b4        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1b4                real_chdir
+ .bss.real_close
+                0x000000000000c1b8        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1b8                real_close
+ .bss.real_fcntl
+                0x000000000000c1bc        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1bc                real_fcntl
+ .bss.real_creat
+                0x000000000000c1c0        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1c0                real_creat
+ .bss.real_dup2
+                0x000000000000c1c4        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1c4                real_dup2
+ .bss.real_execve
+                0x000000000000c1c8        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1c8                real_execve
+ .bss.real_fork
+                0x000000000000c1cc        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1cc                real_fork
+ .bss.real_feof
+                0x000000000000c1d0        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1d0                real_feof
+ .bss.real_ferror
+                0x000000000000c1d4        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1d4                real_ferror
+ .bss.real_listen
+                0x000000000000c1d8        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1d8                real_listen
+ .bss.real_ioctl
+                0x000000000000c1dc        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1dc                real_ioctl
+ .bss.real_open
+                0x000000000000c1e0        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1e0                real_open
+ .bss.real_pause
+                0x000000000000c1e4        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1e4                real_pause
+ .bss.real_pipe
+                0x000000000000c1e8        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1e8                real_pipe
+ .bss.real_select
+                0x000000000000c1ec        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1ec                real_select
+ .bss.real_setitimer
+                0x000000000000c1f0        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1f0                real_setitimer
+ .bss.real_setsid
+                0x000000000000c1f4        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1f4                real_setsid
+ .bss.real_setsockopt
+                0x000000000000c1f8        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1f8                real_setsockopt
+ .bss.real_socket
+                0x000000000000c1fc        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c1fc                real_socket
+ .bss.real_unlink
+                0x000000000000c200        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c200                real_unlink
+ .bss.real_random
+                0x000000000000c204        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c204                real_random
+ .bss.real_gai_strerror
+                0x000000000000c208        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c208                real_gai_strerror
+ .bss.real_fopen
+                0x000000000000c20c        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c20c                real_fopen
+ .bss.real_fclose
+                0x000000000000c210        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c210                real_fclose
+ .bss.real_fseek
+                0x000000000000c214        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c214                real_fseek
+ .bss.real_fputc
+                0x000000000000c218        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c218                real_fputc
+ .bss.real_fgetc
+                0x000000000000c21c        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c21c                real_fgetc
+ .bss.real_umask
+                0x000000000000c220        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c220                real_umask
+ .bss.real_writev
+                0x000000000000c224        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c224                real_writev
+ .bss.real_clock_gettime
+                0x000000000000c228        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c228                real_clock_gettime
+ .bss._native_in_malloc
+                0x000000000000c22c        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c22c                _native_in_malloc
+ .bss._native_in_calloc
+                0x000000000000c230        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+                0x000000000000c230                _native_in_calloc
+ .bss.native_interrupts_enabled
+                0x000000000000c234        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000c234                native_interrupts_enabled
+ .bss._native_in_isr
+                0x000000000000c238        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000c238                _native_in_isr
+ .bss._native_in_syscall
+                0x000000000000c23c        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000c23c                _native_in_syscall
+ .bss._native_sig_set
+                0x000000000000c240       0x80 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ .bss._native_sig_set_dint
+                0x000000000000c2c0       0x80 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ .bss.__isr_stack
+                0x000000000000c340     0x2000 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000c340                __isr_stack
+ .bss.native_isr_context
+                0x000000000000e340      0x15c /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000e340                native_isr_context
+ .bss._native_cur_ctx
+                0x000000000000e49c        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000e49c                _native_cur_ctx
+ .bss._native_isr_ctx
+                0x000000000000e4a0        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000e4a0                _native_isr_ctx
+ .bss._native_saved_eip
+                0x000000000000e4a4        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000e4a4                _native_saved_eip
+ .bss._native_sigpend
+                0x000000000000e4a8        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000e4a8                _native_sigpend
+ .bss._sig_pipefd
+                0x000000000000e4ac        0x8 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000e4ac                _sig_pipefd
+ *fill*         0x000000000000e4b4        0xc 
+ .bss.native_irq_handlers
+                0x000000000000e4c0      0x3fc /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ *fill*         0x000000000000e8bc        0x4 
+ .bss.sigalt_stk
+                0x000000000000e8c0     0x2000 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000e8c0                sigalt_stk
+ .bss.sigstk.5127
+                0x00000000000108c0        0xc /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ *fill*         0x00000000000108cc       0x14 
+ .bss.end_context
+                0x00000000000108e0      0x15c /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+                0x00000000000108e0                end_context
+ *fill*         0x0000000000010a3c        0x4 
+ .bss.__end_stack
+                0x0000000000010a40     0x2000 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+                0x0000000000010a40                __end_stack
+ .bss.tty_device_filenames
+                0x0000000000012a40        0x4 /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(uart.o)
+ *(COMMON)
+                0x0000000000012a44                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000012a44                . = ALIGN (0x4)
+                0x0000000000012a44                . = SEGMENT_START ("ldata-segment", .)
+                0x0000000000012a44                . = ALIGN (0x4)
+                0x0000000000012a44                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000000012a44                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2a
+ *(.comment)
+ .comment       0x0000000000000000       0x2a /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+                                         0x2b (size before relaxing)
+ .comment       0x000000000000002a       0x2b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu/startup.o
+ .comment       0x000000000000002a       0x2b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/application_tests_LEDSPrueba.a(main.o)
+ .comment       0x000000000000002a       0x2b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board_init.o)
+ .comment       0x000000000000002a       0x2b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/board.a(board.o)
+ .comment       0x000000000000002a       0x2b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(kernel_init.o)
+ .comment       0x000000000000002a       0x2b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(thread.o)
+ .comment       0x000000000000002a       0x2b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(assert.o)
+ .comment       0x000000000000002a       0x2b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(panic.o)
+ .comment       0x000000000000002a       0x2b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/core.a(sched.o)
+ .comment       0x000000000000002a       0x2b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(syscalls.o)
+ .comment       0x000000000000002a       0x2b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(irq_cpu.o)
+ .comment       0x000000000000002a       0x2b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(native_cpu.o)
+ .comment       0x000000000000002a       0x2b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/native-drivers.a(native-led.o)
+ .comment       0x000000000000002a       0x2b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(pm.o)
+ .comment       0x000000000000002a       0x2b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph.a(uart.o)
+ .comment       0x000000000000002a       0x2b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/periph_common.a(init.o)
+ .comment       0x000000000000002a       0x2b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/auto_init.a(auto_init.o)
+ .comment       0x000000000000002a       0x2b /data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/cpu.a(async_read.o)
+ .comment       0x000000000000002a       0x2b /usr/lib/gcc/x86_64-linux-gnu/7/32/crtendS.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(/data/riotbuild/riotbase/ProyectoIARS/LEDSPrueba/bin/native/tests_LEDSPrueba.elf elf32-i386)

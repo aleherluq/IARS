@@ -58,6 +58,17 @@ extern "C" {
 /** @} */
 
 /**
+ *BUTTONS by AVB
+ */
+#define BTN_UP               GPIO_PIN(2, 6)
+#define BTN_LE               GPIO_PIN(2, 4)
+#define BTN_RI               GPIO_PIN(2, 5)
+#define BTN_DO               GPIO_PIN(2, 7)
+#define BTN_SE 	       	     GPIO_PIN(0, 3)
+#define BTN_MODE	     GPIO_IN_PU
+/** */
+
+/**
  * @name    Flash Customer Configuration Area (CCA) parameters
  * @{
  */

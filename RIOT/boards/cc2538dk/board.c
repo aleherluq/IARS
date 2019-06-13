@@ -38,4 +38,11 @@ void board_init(void)
     gpio_init(LED1_PIN, GPIO_OUT);
     gpio_init(LED2_PIN, GPIO_OUT);
     gpio_init(LED3_PIN, GPIO_OUT);
+
+    /*initialize board buttons by AVB*/
+    gpio_init(BTN_UP, BTN_MODE);
+    gpio_init(BTN_LE, BTN_MODE);
+    gpio_init(BTN_RI, BTN_MODE);
+    gpio_init(BTN_DO, BTN_MODE);
+    gpio_init(BTN_SE, BTN_MODE);
 }
