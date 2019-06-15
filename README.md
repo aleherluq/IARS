@@ -1,4 +1,4 @@
-#Proyecto IARS
+# Proyecto IARS
 
 El objetivo del presente proyecto es implementar RIOT OS en diferentes 
 microcontroladores de Texas Instruments.
