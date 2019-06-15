@@ -72,7 +72,7 @@ Para pasar del working directory al área de Staging se hace uso del
 siguiente comando:
 
 ```
-gitt add .
+git add .
 ```
 El punto lo que hace que agrega al area de staging todos los archivos 
 que se han creado o modificado. También se pueden añadir los archivos 
