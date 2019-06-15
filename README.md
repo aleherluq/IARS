@@ -5,30 +5,30 @@ microcontroladores de Texas Instruments.
 
 La elaboración del proyecto se ha dividido en los siguientes items:
 
-## GIT
+## 1.- GIT
 
 En esta carpeta se tiene una guía básica de uso de git
 
-## Docker
+## 2.- Docker
 
 En esta carpeta se tienen las instrucciones básicas para poner en marcha 
 Docker. Cuenta con los siguentes apartados:
 
-### Instalar docker
+### 2.1.- Instalar docker
 
 Comandos para instalar desde Ubuntu y como descargar y las 
 especificaciones para windows.
 
-### Descarga de imagenes
+### 2.2.- Descarga de imagenes
 
-### Correr containner
+### 2.3.- Correr containner
 
-### Volumenes
+### 2.4 Volumenes
 
-## RIOT
+## 3.- RIOT
 
 Carpeta con el repositorio de RIOT de github
 
-## Programas 
+## 4.- Programas 
 
 Programas realizados para los dos microcontroladores utilizados
