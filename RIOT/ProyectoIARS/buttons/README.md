@@ -1,13 +1,8 @@
-# On-Board Button Test
+Resultado esperado
+===============
+Este test encenderá un led por cada botón disponible, siempre que el número de ledes sea igual o mayor al número de botones.
 
-This tests initializes all on-board buttons available, currently up to 4 in
-total. Each button is configured as an input with interrupt on button press
-or release depending on the configured TEST_FLANK.
-
-# Expected Result
-
-When a button is pressed (and/or released) an interrupt fires which results in
-a message indicating which button was used. The test naturally qualifies for
-manual testing only. Nevertheless, it prints "[SUCCESS]" after all buttons
-were initialized successfully or "[FAILED] <msg>" on error, so it can be used
-for limited automated testing as well.
+Background
+==========
+Con este test se logra asegurar que la configuración de los botones (PP,PU,...) se hace de forma correcta. Encendiendo un led cada vez que inicia un botón de forma correcta. 
+La necesidad de este test surgió ante la problemática que se tenía para realizar una correcta GPIO_init

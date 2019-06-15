@@ -10,38 +10,23 @@ Ejemplo de control de los LEDS con los botones
 #include "periph_conf.h"
 
 
-#ifdef CLOCK_CORECLOCK
-#define DELAY_SHORT         (CLOCK_CORECLOCK / 50)
-#else
-#define DELAY_SHORT         (500000UL)
-#endif
-#define DELAY_LONG          (DELAY_SHORT * 4)
-#define TEST_FLANK      GPIO_FALLING
+#define TEST_FLANK      GPIO_FALLING	//flanco de bajada hará saltar la interrupción
 
 
-void dumb_delay(uint32_t delay)
-{
-    for (uint32_t i = 0; i < delay; i++) {
-        __asm__("nop");
-    }
-}
 
-static void cb(void *arg)
+static void cb(void *arg)  //callback de la interrupción del botón 0
 {
 	if (arg){
-	LED1_TOGGLE;
-	LED0_TOGGLE;}
-//return;
+	LED1_TOGGLE;	//realiza un toggle del esteda de
+	LED0_TOGGLE;}	//ambos leds
 }
 
 int main(void)
 {
-//int i=0;
-gpio_init_int(BTN0_PIN, BTN0_MODE, TEST_FLANK, cb, (void *)1);
-LED1_ON;
-LED0_OFF;
+	gpio_init_int(BTN0_PIN, BTN0_MODE, TEST_FLANK, cb, (void *)1);	//inicialización de la interrupción del botón 0
+	LED1_ON;	//se enciende el led 1
+	LED0_OFF;	//se apaga el led 0, así el toggle de ambos es más visual.
 
-while (1){
-//dumb_delay(DELAY_SHORT);
-}
+	while (1){	//loop infinito
+	}
 }

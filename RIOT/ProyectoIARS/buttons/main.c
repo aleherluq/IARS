@@ -45,7 +45,7 @@ int main(void)
 	
         return 1;
     }
-LED0_ON;
+LED0_ON;	//si el botón existe, se enciende un led
     ++cnt;
 #endif
 #ifdef BTN1_PIN
