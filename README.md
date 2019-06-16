@@ -5,11 +5,11 @@ microcontroladores de Texas Instruments.
 
 La elaboración del proyecto se ha dividido en los siguientes items:
 
-## 1.- GIT
+## [1.- GIT](https://github.com/blalebla/IARS/tree/master/1.-Git)
 
 En esta carpeta se tiene una guía básica de uso de git
 
-## 2.- Docker
+## [2.- Docker](https://github.com/blalebla/IARS/tree/master/2.-Docker)
 
 En esta carpeta se tienen las instrucciones básicas para poner en marcha 
 Docker. Cuenta con los siguentes apartados:
@@ -23,13 +23,17 @@ especificaciones para windows.
 
 ### 2.3.- Correr containner
 
-### 2.4 Volumenes
+### 2.4.- Volumenes
 
-## 3.- RIOT
+## 3.- [RIOT](https://github.com/blalebla/IARS/tree/master/3.-RIOT)
 
 Carpeta con el repositorio de RIOT de github. 
 Los archivos creados o modificados correspondientes con nuestro proyecto se encuentran [aquí](https://github.com/blalebla/IARS/tree/master/3.-RIOT/ProyectoIARS/)
 
-### 4.-MEMORIA
+### [4.-MEMORIA](https://github.com/blalebla/IARS/tree/master/4.-Memoria%20proyecto)
 
+### 5.- MIEMBROS DEL GRUPO
 
+* **Alberto Vázquez Baeza**
+* **María Ariza Gamero**
+* **Alejandro Hernán Luque**
