@@ -25,14 +25,14 @@ especificaciones para windows.
 
 ### 2.4.- Volumenes
 
-## 3.- [RIOT](https://github.com/blalebla/IARS/tree/master/3.-RIOT)
+## [3.- RIOT](https://github.com/blalebla/IARS/tree/master/3.-RIOT)
 
 Carpeta con el repositorio de RIOT de github. 
 Los archivos creados o modificados correspondientes con nuestro proyecto se encuentran [aquí](https://github.com/blalebla/IARS/tree/master/3.-RIOT/ProyectoIARS/)
 
-### [4.-MEMORIA](https://github.com/blalebla/IARS/tree/master/4.-Memoria%20proyecto)
+## [4.-MEMORIA](https://github.com/blalebla/IARS/tree/master/4.-Memoria%20proyecto)
 
-### 5.- MIEMBROS DEL GRUPO
+## 5.- MIEMBROS DEL GRUPO
 
 * **Alberto Vázquez Baeza**
 * **María Ariza Gamero**
