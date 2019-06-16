@@ -27,8 +27,9 @@ especificaciones para windows.
 
 ## 3.- RIOT
 
-Carpeta con el repositorio de RIOT de github
+Carpeta con el repositorio de RIOT de github. 
+Los archivos creados o modificados correspondientes con nuestro proyecto se encuentran [aquí] (https://github.com/blalebla/IARS/tree/master/3.-RIOT/ProyectoIARS/)
 
-## 4.- Programas 
+### 4.-MEMORIA
 
-Programas realizados para los dos microcontroladores utilizados
+
